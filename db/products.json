@@ -4,7 +4,7 @@
       "id": 1,
       "nombre": "Laptop XYZ",
       "descripcion": "Laptop de 15 pulgadas, 16GB RAM, 512GB SSD.",
-      "imagen": "alurageekstore.github.io/assets/img/laptop.jpg",
+      "imagen": "/assets/img/laptop.jpg",
       "categoria": "Electrónica",
       "price": "1500dlls"
     },
