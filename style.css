@@ -1,0 +1,120 @@
+.navegacion {
+    background-color: #f0efef;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 10px;
+    gap: 20px;
+    width: 100%;
+}
+
+.logo {
+    width: 13rem;
+    margin-right: 20px;
+}
+
+.control {
+    margin-right: 20px;
+}
+
+.button.is-info {
+    margin-left: auto;
+}
+
+nav {
+    height: 100%;
+}
+
+.header {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./assets/img/offers.jpg') center/cover no-repeat;
+    filter: blur(5px);
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+.title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.action {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.title-card{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/* Agrega esta clase CSS a tus estilos */
+.product-card {
+    width: 20%; /* Ancho de la tarjeta */
+}
+
+.product-card .card-image img {
+    object-fit: cover; /* Ajustar la imagen para que no se vea estirada */
+    max-height: 200px; /* Altura máxima de la imagen */
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product-card {
+    
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bulma css como framework de css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- css normal -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Ecoomerce gdzul</title>
+</head>
+
+<body>
+    <section class="navegacion">
+        <nav class="">
+            <div class="container">
+                <a href="index.html"><img class="logo" src="./assets/img/Logo.png" alt=""></a>
+
+                <div class="control  has-icons-right">
+                    <input style="border-radius: 10px;" class="input is-normal" type="text" placeholder="Search....">
+                    <span class="icon is-small is-right">
+                        <i class="fas fa-search"></i>
+                    </span>
+                </div>
+                <button class="button is-info">Inicar session</button>
+            </div>
+        </nav>
+    </section>
+
+    <section class="header">
+        <div class="principal">
+            <h1 class="title">Ven y disfruta de nuestras grandes promociones</h1>
+            <p class="description">Toda la tienda con un 30% de descuento</p>
+            <button class="action">
+                ver productos
+            </button>
+        </div>
+    </section>
+
+    <div class="columns is-multiline" id="product-container" style="margin: 10px;">
+        <!-- La tarjeta que se clonará para cada producto -->
+        <div class="is-12-mobile is-6-tablet is-4-desktop is-3-widescreen">
+            <div class="card product-card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="" alt="Producto">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <p class="title-card is-4" id="product-name"></p>
+                    <p class="subtitle is-6" id="product-price"></p>
+                    <div class="content" id="product-description">
+                    </div>
+                    <button class="button is-info action">
+                        Ver producto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Geovanni Dzul</strong> by <a href="https://bulma.io" target="_blank">Geovanni Dzul & bulma.css</a>.
+                </p>
+
+
+                <div class="columns is-justify-content-center">
+                    <div class="column is-6-tablet is-5-desktop is-4-widescreen is-3-fullh">
+                        <form method="POST" action="https://herotofu.com/start" class="box p-5">
+                            <label class="is-block mb-4">
+                                <span class="is-block mb-2">Nombre</span>
+                                <input name="name" type="text" class="input" placeholder="Joe Bloggs" />
+                            </label>
+
+                            <label class="is-block mb-4">
+                                <span class="is-block mb-2">Correo electronico </span>
+                                <input required name="email" type="email" class="input"
+                                    placeholder="joe.bloggs@example.com" />
+                            </label>
+
+                            <label class="is-block mb-4">
+                                <span class="is-block mb-2">Mensaje</span>
+                                <textarea name="message" class="textarea" rows="3"
+                                    placeholder="Tell us what you're thinking about..."></textarea>
+                            </label>
+
+                            <div class="mb-4">
+                                <button type="submit" class="button is-link px-4">Enviar mensaje</button>
+                            </div>
+
+                            <div>
+                                <div class="is-size-7 has-text-right">
+                                    by
+                                    <a href="https://herotofu.com/start" class="has-text-dark"
+                                        target="_blank">HeroTofu</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </footer>
+    </section>
+
+    <script type="module" src="app.mjs"></script>
+
+</body>
+
+</html>

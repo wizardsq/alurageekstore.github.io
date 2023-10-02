@@ -1,0 +1,196 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop XYZ",
+      "descripcion": "Laptop de 15 pulgadas, 16GB RAM, 512GB SSD.",
+      "imagen": "../assets/img/laptop.jpg",
+      "categoria": "Electrónica",
+      "price": "1500dlls"
+    },
+    {
+      "id": 2,
+      "nombre": "Smartphone ABC",
+      "descripcion": "Smartphone con pantalla OLED de 6.5 pulgadas.",
+      "imagen": "../assets/img/celular.jpg",
+      "categoria": "Electrónica",
+      "price": "500dlls"
+    },
+    {
+      "id": 3,
+      "nombre": "Tablet LMN",
+      "descripcion": "Tablet de 10 pulgadas con 128GB de almacenamiento.",
+      "imagen": "../assets/img/tablet.jpg",
+      "categoria": "Electrónica",
+      "price": "450dlls"
+    },
+    {
+      "id": 4,
+      "nombre": "Smartwatch DEF",
+      "descripcion": "Reloj inteligente con monitorización cardíaca.",
+      "imagen": "../assets/img/smartwatch.jpg",
+      "categoria": "Electrónica",
+      "price": "120dlls"
+    },
+    {
+      "id": 5,
+      "nombre": "Cámara GHI",
+      "descripcion": "Cámara digital DSLR con lente de 50mm.",
+      "imagen": "../assets/img/camara.jpg",
+      "categoria": "Electrónica",
+      "price": "3500dlls"
+    },
+    {
+      "id": 6,
+      "nombre": "Audífonos JKL",
+      "descripcion": "Audífonos inalámbricos con cancelación de ruido.",
+      "imagen": "../assets/img/audifonos.jpg",
+      "categoria": "Electrónica",
+      "price": "230dlls"
+    },
+    {
+      "id": 7,
+      "nombre": "Cafetera PQR",
+      "descripcion": "Cafetera eléctrica con capacidad para 10 tazas.",
+      "imagen": "../assets/img/cafetera.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "85dlls"
+    },
+    {
+      "id": 8,
+      "nombre": "Licuadora STU",
+      "descripcion": "Licuadora con potencia de 500W.",
+      "imagen": "../assets/img/licuadora.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "34dlls"
+    },
+    {
+      "id": 9,
+      "nombre": "Tostadora VWX",
+      "descripcion": "Tostadora con capacidad para 2 rebanadas.",
+      "imagen": "../assets/img/tostador.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "25dlls"
+    },
+    {
+      "id": 10,
+      "nombre": "Horno YZA",
+      "descripcion": "Horno eléctrico con capacidad de 50 litros.",
+      "imagen": "../assets/img/horno.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "60dlls"
+    },
+    {
+      "id": 11,
+      "nombre": "Refrigerador BCD",
+      "descripcion": "Refrigerador de dos puertas con capacidad de 300 litros.",
+      "imagen": "../assets/img/refrigerador.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "99dlls"
+    },
+    {
+      "id": 12,
+      "nombre": "Microondas EFG",
+      "descripcion": "Microondas con potencia de 800W y grill.",
+      "imagen": "../assets/img/microondas.jpg",
+      "categoria": "Electrodomésticos",
+      "price": "40dlls"
+    },
+    {
+      "id": 13,
+      "nombre": "Guitarra PQR",
+      "descripcion": "Guitarra acústica de madera de roble.",
+      "imagen": "../assets/img/guitarra.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "400dlls"
+    },
+    {
+      "id": 14,
+      "nombre": "Batería STU",
+      "descripcion": "Batería de 5 piezas para conjunto musical.",
+      "imagen": "../assets/img/bateria.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "375dlls"
+    },
+    {
+      "id": 15,
+      "nombre": "Violín VWX",
+      "descripcion": "Violín de tamaño completo con arco y estuche.",
+      "imagen": "../assets/img/violin.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "170dlls"
+    },
+    {
+      "id": 16,
+      "nombre": "Saxofón YZA",
+      "descripcion": "Saxofón alto con acabado dorado.",
+      "imagen": "../assets/img/saxofon.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "200dlls"
+    },
+    {
+      "id": 17,
+      "nombre": "Piano Digital ABC",
+      "descripcion": "Piano digital de 88 teclas con sensibilidad al tacto.",
+      "imagen": "../assets/img/piano.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "600dlls"
+    },
+    {
+      "id": 18,
+      "nombre": "Ukelele DEF",
+      "descripcion": "Ukelele soprano de madera de caoba.",
+      "imagen": "../assets/img/ukelele.jpg",
+      "categoria": "Instrumentos Musicales",
+      "price": "70dlls"
+    },
+    {
+      "id": 19,
+      "nombre": "Zapatillas GHI",
+      "descripcion": "Zapatillas deportivas talla 42.",
+      "imagen": "../assets/img/zapatillas.jpg",
+      "categoria": "Calzado",
+      "price": "65dlls"
+    },
+    {
+      "id": 20,
+      "nombre": "Sandalias JKL",
+      "descripcion": "Sandalias de verano talla 38.",
+      "imagen": "../assets/img/sandalias.jpg",
+      "categoria": "Calzado",
+      "price": "20dlls"
+    },
+    {
+      "id": 21,
+      "nombre": "Botas LMN",
+      "descripcion": "Botas de piel genuina talla 40.",
+      "imagen": "../assets/img/botas.jpg",
+      "categoria": "Calzado",
+      "price": "100dlls"
+    },
+    {
+      "id": 22,
+      "nombre": "Mocasines PQR",
+      "descripcion": "Mocasines de cuero talla 41.",
+      "imagen": "../assets/img/mocasines.jpg",
+      "categoria": "Calzado",
+      "price": "49dlls"
+    },
+    {
+      "id": 23,
+      "nombre": "Tacones STU",
+      "descripcion": "Tacones elegantes talla 39.",
+      "imagen": "../assets/img/tacones.jpg",
+      "categoria": "Calzado",
+      "price": "69dlls"
+    },
+    {
+      "id": 24,
+      "nombre": "Tenis para correr VWX",
+      "descripcion": "Tenis técnicos para corredores talla 43.",
+      "imagen": "../assets/img/tenis.jpg",
+      "categoria": "Calzado",
+      "price": "85dlls"
+    }
+  ]
+}
